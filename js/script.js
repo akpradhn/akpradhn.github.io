@@ -82,7 +82,7 @@ contactForm.addEventListener('submit', (e) => {
     // Create mailto link (you can replace this with a form submission service)
     const subject = encodeURIComponent(`Contact from ${name}`);
     const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
-    const mailtoLink = `mailto:your.email@example.com?subject=${subject}&body=${body}`;
+    const mailtoLink = `mailto:amitkpradhan@example.com?subject=${subject}&body=${body}`;
     
     // Open email client
     window.location.href = mailtoLink;
