@@ -3,8 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Amit Kumar Pradhan - Data Scientist | Python Developer & AI Enthusiast">
-    <title>Amit Kumar Pradhan | Portfolio</title>
+    <meta name="description" content="Amit Kumar Pradhan - Lead Data Scientist | Python Developer & AI Enthusiast. 9+ years of experience in data science, machine learning, and building intelligent solutions.">
+    <meta name="keywords" content="Data Scientist, Machine Learning, Python Developer, AI, Data Analytics, Portfolio">
+    <meta name="author" content="Amit Kumar Pradhan">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://akpradhn.github.io/">
+    <meta property="og:title" content="Amit Kumar Pradhan | Data Scientist & AI Enthusiast">
+    <meta property="og:description" content="Lead Data Scientist with 9+ years of experience in machine learning, data analytics, and building intelligent solutions.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://akpradhn.github.io/">
+    <meta property="twitter:title" content="Amit Kumar Pradhan | Data Scientist & AI Enthusiast">
+    <meta property="twitter:description" content="Lead Data Scientist with 9+ years of experience in machine learning, data analytics, and building intelligent solutions.">
+    
+    <title>Amit Kumar Pradhan | Portfolio - Data Scientist & AI Enthusiast</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +27,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <!-- Skip to Content Link -->
+    <a href="#home" class="skip-to-content">Skip to Content</a>
+    
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+    
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="container">
@@ -70,6 +96,7 @@
                         <div class="avatar-placeholder">
                             <i class="fas fa-user"></i>
                         </div>
+                        <div class="hero-decoration"></div>
                     </div>
                 </div>
             </div>
@@ -97,17 +124,17 @@
                         to data science communities, or sharing insights through technical blogs and projects.
                     </p>
                 </div>
-                <div class="about-stats">
-                    <div class="stat-item">
-                        <div class="stat-number">50+</div>
+                    <div class="about-stats">
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="stat-number" data-target="50">0</div>
                         <div class="stat-label">Projects</div>
                     </div>
-                    <div class="stat-item">
-                        <div class="stat-number">9+</div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="stat-number" data-target="9">0</div>
                         <div class="stat-label">Years Experience</div>
                     </div>
-                    <div class="stat-item">
-                        <div class="stat-number">100+</div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="stat-number" data-target="100">0</div>
                         <div class="stat-label">GitHub Contributions</div>
                     </div>
                 </div>
@@ -213,6 +240,43 @@
         </div>
     </section>
 
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">ACHIEVEMENTS & CERTIFICATIONS</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card" data-aos="fade-up">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>7+ Years at Rapido</h3>
+                    <p>Led data science initiatives across multiple roles, driving significant business impact</p>
+                </div>
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="achievement-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <h3>50+ Projects</h3>
+                    <p>Built and deployed numerous data science and ML solutions</p>
+                </div>
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="achievement-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Team Leadership</h3>
+                    <p>Led and mentored teams of 10+ data scientists and analysts</p>
+                </div>
+                <div class="achievement-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="achievement-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Continuous Learning</h3>
+                    <p>100 Days of AI Agents - Comprehensive learning journey</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Skills Section -->
     <section id="skills" class="skills">
         <div class="container">
@@ -313,8 +377,11 @@
                             <span>SQLite</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/akpradhn/utsavaSathi" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/akpradhn/utsavaSathi" target="_blank" rel="noopener noreferrer" class="project-link">
                                 <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#" class="project-link project-link-demo" onclick="return false;">
+                                <i class="fas fa-external-link-alt"></i> Demo
                             </a>
                         </div>
                     </div>
@@ -338,8 +405,11 @@
                             <span>PostgreSQL</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/akpradhn/drifterTrails" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/akpradhn/drifterTrails" target="_blank" rel="noopener noreferrer" class="project-link">
                                 <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#" class="project-link project-link-demo" onclick="return false;">
+                                <i class="fas fa-external-link-alt"></i> Demo
                             </a>
                         </div>
                     </div>
@@ -363,8 +433,11 @@
                             <span>AI/ML</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/akpradhn/build-ai-agents-in-100-days" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/akpradhn/build-ai-agents-in-100-days" target="_blank" rel="noopener noreferrer" class="project-link">
                                 <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#" class="project-link project-link-demo" onclick="return false;">
+                                <i class="fas fa-external-link-alt"></i> Demo
                             </a>
                         </div>
                     </div>
@@ -388,8 +461,11 @@
                             <span>Playwright</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/akpradhn/smartaffiliate" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/akpradhn/smartaffiliate" target="_blank" rel="noopener noreferrer" class="project-link">
                                 <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="#" class="project-link project-link-demo" onclick="return false;">
+                                <i class="fas fa-external-link-alt"></i> Demo
                             </a>
                         </div>
                     </div>
@@ -413,9 +489,43 @@
                             <span>Automation</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/akpradhn/postGenie" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/akpradhn/postGenie" target="_blank" rel="noopener noreferrer" class="project-link">
                                 <i class="fab fa-github"></i> Code
                             </a>
+                            <a href="#" class="project-link project-link-demo" onclick="return false;">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">RECOMMENDATIONS</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"Amit is an exceptional data scientist with deep expertise in machine learning and analytics. His ability to translate complex technical concepts into business value is outstanding."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Colleague at Rapido</h4>
+                            <p>Senior Product Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"Working with Amit has been a great experience. His data-driven approach and leadership skills have significantly improved our analytics capabilities."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Team Member</h4>
+                            <p>Data Analyst</p>
                         </div>
                     </div>
                 </div>
@@ -450,15 +560,24 @@
                 </div>
                 <form class="contact-form" id="contact-form">
                     <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required aria-label="Your Name">
+                        <span class="form-error" id="name-error"></span>
                     </div>
                     <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required aria-label="Your Email">
+                        <span class="form-error" id="email-error"></span>
                     </div>
                     <div class="form-group">
-                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required aria-label="Your Message"></textarea>
+                        <span class="form-error" id="message-error"></span>
                     </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <div class="form-success" id="form-success" style="display: none;">
+                        <i class="fas fa-check-circle"></i> Thank you! Your message has been sent successfully.
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span class="btn-text">Send Message</span>
+                        <span class="btn-loader" style="display: none;"><i class="fas fa-spinner fa-spin"></i></span>
+                    </button>
                 </form>
             </div>
         </div>
@@ -467,10 +586,70 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Amit Kumar Pradhan. Built with ❤️ and lots of ☕</p>
-            <p class="footer-note">Hosted on GitHub Pages</p>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Amit Kumar Pradhan</h3>
+                    <p>Data Scientist | Python Developer & AI Enthusiast</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/akpradhn" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/akpradhn" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com/akpradhn" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="mailto:akpradhn@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://github.com/akpradhn" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                        <li><a href="https://linkedin.com/in/akpradhn" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                        <li><a href="https://twitter.com/akpradhn" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                        <li><a href="mailto:akpradhn@gmail.com">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Amit Kumar Pradhan. Built with ❤️ and lots of ☕</p>
+                <p class="footer-note">Hosted on GitHub Pages</p>
+            </div>
         </div>
     </footer>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Amit Kumar Pradhan",
+        "jobTitle": "Lead Data Scientist",
+        "url": "https://akpradhn.github.io",
+        "sameAs": [
+            "https://github.com/akpradhn",
+            "https://linkedin.com/in/akpradhn",
+            "https://twitter.com/akpradhn"
+        ],
+        "email": "akpradhn@gmail.com",
+        "description": "Lead Data Scientist with 9+ years of experience in machine learning, data analytics, and building intelligent solutions."
+    }
+    </script>
 
     <script src="js/script.js"></script>
 </body>
